@@ -27,7 +27,10 @@ class Graph{
         visited[startNode] = true;
         while(!q.empty()){
             int f = q.front();
+<<<<<<< HEAD
             q.pop();
+=======
+>>>>>>> 0b8835cb177ffa5e85f7ef2f196a9d1438d7c2b3
             cout<<f<<endl;
             for(auto nbr : l[f]){
                 if(visited[nbr]==false){
@@ -51,7 +54,11 @@ int main(){
     g.addEdge(2,3);
     g.addEdge(3,5);
 
+<<<<<<< HEAD
     g.BFS(0);
+=======
+    g.BFS(6);
+>>>>>>> 0b8835cb177ffa5e85f7ef2f196a9d1438d7c2b3
 
     return 0;
 }
